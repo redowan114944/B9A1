@@ -195,9 +195,9 @@ header {
 /* sixth part design */
 
 .sixth-part{
-    max-width: 1600px;
-    width: 1550px; /* Use viewport width as a relative unit */
-    height: 600px;
+
+    width: 1320px;
+    height: 800px;
     background-image: url('../styles/resources/Rectangle\ 2.png');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -213,8 +213,18 @@ header {
 .sixth-text{
     text-align: center;
     padding-top: 0px;
+    margin-top: 0px;
 }
 
+.girl-img{
+    margin-bottom: 245px;
+    margin-right: 0px;
+    margin-left: 891px;
+}
+
+.discount-img{
+    
+}
 
 
 /* portfolio part design */
