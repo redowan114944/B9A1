@@ -168,9 +168,9 @@ header {
     padding-right: 70px;
 }
 
-.fifth-second-part{
+.fifth-second-part {
     text-align: left;
-    padding-left: 118px ;
+    padding-left: 118px;
 }
 
 .fifth-year {
@@ -191,6 +191,31 @@ header {
     width: 140px;
     height: 140px;
 }
+
+/* sixth part design */
+
+.sixth-part{
+    max-width: 1600px;
+    width: 1550px; /* Use viewport width as a relative unit */
+    height: 600px;
+    background-image: url('../styles/resources/Rectangle\ 2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; 
+    padding-top: 0px ;
+}
+
+.sixth-text{
+    text-align: center;
+    padding-top: 0px;
+}
+
+
 
 /* portfolio part design */
 
