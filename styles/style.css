@@ -1,3 +1,5 @@
+/* head section style */
+
 header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("resources/Banner Image.png");
     width: 1320px;
@@ -65,10 +67,10 @@ header {
     display: block;
 }
 
+/* third part design */
+
 .third-part {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
-    /* background-size: cover; */
-    /* background-position: center; */
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -110,6 +112,8 @@ header {
     border: 1px solid white;
 }
 
+/* fourth part design */
+
 .four-part {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 1320px;
@@ -127,4 +131,104 @@ header {
     border: none;
     border-radius: 8px;
     padding: 16px 32px;
+}
+
+/* portfolio part design */
+
+.portfolio-part {
+    width: 1320px;
+    height: 500px;
+    align-items: center;
+    text-align: left;
+    margin: 50px auto;
+}
+
+#portfolio-header {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#portfolio-title {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+#portfolio-des {
+    color: #454545;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.portfolio-img {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+/* subscribe part design*/
+
+.subscribe-part {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    margin: 800px auto;
+    padding: 80px 100px;
+    box-sizing: border-box;
+}
+
+.sub-title {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sub-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.sub-button input {
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    padding: 30px 100px;
+    text-align: left;
+    padding-left: 30px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sub-button button {
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #FF0000;
+    padding: 30px 70px;
+    color: white;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
 }
