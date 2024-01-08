@@ -110,6 +110,11 @@ header {
 .thirdbutton {
     background-color: transparent;
     border: 1px solid white;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 /* fourth part design */
@@ -131,6 +136,7 @@ header {
     border: none;
     border-radius: 8px;
     padding: 16px 32px;
+    cursor: pointer;
 }
 
 /* portfolio part design */
@@ -172,6 +178,11 @@ header {
     gap: 25px;
     margin-bottom: 25px;
 }
+
+.portfolio-img img:hover {
+    transform: scale(1.08);
+}
+
 
 /* subscribe part design*/
 
@@ -231,4 +242,56 @@ header {
     font-family: 'Inter';
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+/* footer section design */
+footer {
+    background: #070211;
+    padding: 120px 140px;
+}
+
+.footer-head {
+    color: white;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-text {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    justify-content: center;
+    margin: 48px 680px;
+    display: flex;
+    gap: 25px;
+}
+
+.footer-end {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px;
+}
+
+.footerbutton {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#footer-text {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
 }
