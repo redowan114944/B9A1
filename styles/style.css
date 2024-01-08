@@ -19,7 +19,8 @@ header {
     font-family: 'Merriweather', serif;
     font-size: 32px;
     font-weight: 400px;
-    padding: 177px 530px 0px 530px;
+    padding: auto;
+    padding-top: 177px;
     margin: 0px 0px 16px 0px;
 }
 
