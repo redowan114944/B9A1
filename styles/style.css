@@ -18,7 +18,7 @@ header {
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 400px;
     padding: 177px 530px 0px 530px;
     margin: 0px 0px 16px 0px;
 }
@@ -28,7 +28,7 @@ header {
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 72px;
-    font-weight: 900;
+    font-weight: 900px;
     padding: 0px 344px 177px 344px;
     margin: 0px;
 }
@@ -38,7 +38,7 @@ header {
     text-align: center;
     font-family: 'Inter';
     font-size: 88px;
-    font-weight: 700;
+    font-weight: 700px;
     margin: 120px 608px 48px 608px;
 }
 
@@ -47,7 +47,7 @@ header {
     text-align: center;
     font-family: 'Inter';
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 500px;
     margin-bottom: 16px;
 }
 
@@ -56,7 +56,7 @@ header {
     text-align: center;
     font-family: Inter;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 700px;
     margin-top: 0px;
 }
 
@@ -93,7 +93,7 @@ header {
     color: white;
     font-family: 'Merriweather';
     font-size: 64px;
-    font-weight: 900;
+    font-weight: 900px;
     line-height: 88px;
     margin-bottom: 20px;
 }
@@ -102,7 +102,7 @@ header {
     color: white;
     font-family: Inter;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400px;
     margin-bottom: 40px;
 
 }
@@ -113,7 +113,7 @@ header {
     text-align: center;
     font-family: 'Inter';
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 700px;
     cursor: pointer;
 }
 
@@ -128,7 +128,10 @@ header {
     font-size: 32px;
     margin: 50px auto;
     padding-top: 100px;
+    font-family: 'Inter';
 }
+
+
 
 .four-part-button {
     background-color: red;
@@ -136,7 +139,57 @@ header {
     border: none;
     border-radius: 8px;
     padding: 16px 32px;
+    font-family: 'Inter';
     cursor: pointer;
+}
+
+/* fifth part design */
+.fifth-part {
+    display: flex;
+    width: 1320px;
+    height: 482px;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    margin: 50px auto;
+    padding-top: 100px;
+}
+
+.round-frame {
+    border: 15px red solid;
+    border-radius: 50%;
+    padding: 50px;
+    width: 420px;
+    margin: auto;
+}
+
+.fifth-first-part {
+    text-align: left;
+    padding-right: 70px;
+}
+
+.fifth-second-part{
+    text-align: left;
+    padding-left: 118px ;
+}
+
+.fifth-year {
+    color: red;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.fifth-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fifth-small {
+    width: 140px;
+    height: 140px;
 }
 
 /* portfolio part design */
@@ -149,26 +202,25 @@ header {
     margin: 50px auto;
 }
 
-#portfolio-header {
+.portfolio-header {
     color: #F00;
     font-family: 'Inter';
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 500px;
 }
 
-#portfolio-title {
+.portfolio-title {
     color: #070211;
     font-family: 'Merriweather';
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 900px;
     text-transform: capitalize;
 }
 
-#portfolio-des {
+.portfolio-des {
     color: #454545;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
 }
@@ -202,14 +254,14 @@ header {
     color: #070211;
     font-family: 'Merriweather';
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 900px;
 }
 
 .sub-des {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter';
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 400px;
 }
 
 .sub-button {
@@ -229,7 +281,7 @@ header {
     text-align: center;
     font-family: 'Inter';
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400px;
 }
 
 .sub-button button {
@@ -241,7 +293,7 @@ header {
     text-align: center;
     font-family: 'Inter';
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 600px;
     cursor: pointer;
 }
 
@@ -255,7 +307,7 @@ footer {
     color: white;
     font-family: 'Inter';
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 500px;
 }
 
 .footer-text {
@@ -286,12 +338,12 @@ footer {
     color: white;
     font-family: 'Inter';
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 500px;
     cursor: pointer;
 }
 
 #footer-text {
     font-family: 'Inter';
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 500px;
 }
