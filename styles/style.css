@@ -160,17 +160,20 @@ header {
     border-radius: 50%;
     padding: 50px;
     width: 420px;
-    margin: auto;
+    margin-left: 80px;
+    margin-right: 120px;
 }
 
 .fifth-first-part {
     text-align: left;
-    padding-right: 70px;
+    padding-right: 0px;
+    margin-left: 0px;
 }
 
 .fifth-second-part {
     text-align: left;
     padding-left: 118px;
+    margin-right: 50px;
 }
 
 .fifth-year {
@@ -194,10 +197,10 @@ header {
 
 /* sixth part design */
 
-.sixth-part{
+.sixth-part {
 
     width: 1320px;
-    height: 800px;
+    height: 1000px;
     background-image: url('../styles/resources/Rectangle\ 2.png');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -206,24 +209,56 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 auto; 
-    padding-top: 0px ;
+    margin: auto;
+    padding-top: 100px;
 }
 
-.sixth-text{
+.sixth-header {
+    color: black;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sixth-middle {
+    color: black;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sixth-dis {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sixth-text {
     text-align: center;
     padding-top: 0px;
     margin-top: 0px;
 }
 
-.girl-img{
+.girl-img {
+    margin-top: 47px;
     margin-bottom: 245px;
     margin-right: 0px;
     margin-left: 891px;
 }
 
-.discount-img{
-    
+.discount-img {
+    position: absolute;
+    margin-top: 199px;
+    margin-left: 420px;
+    margin-bottom: 35px;
+}
+
+.gift-img {
+    position: absolute;
+    width: 550px;
+    margin-top: 400px;
+    margin-right: 500px;
 }
 
 
@@ -235,6 +270,7 @@ header {
     align-items: center;
     text-align: left;
     margin: 50px auto;
+    padding-top: 100px;
 }
 
 .portfolio-header {
